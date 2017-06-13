@@ -1,0 +1,88 @@
+
+.clearfix {
+    @include clearfix;
+}
+
+
+
+.container {
+  @include container-fixed;
+
+  @media (min-width: $screen-xs) {
+    width: $container-xs;
+  }
+  @media (min-width: $screen-sm) {
+    width: $container-sm;
+  }
+  @media (min-width: $screen-md) {
+    width: $container-md;
+  }
+  @media (min-width: $screen-lg) {
+    width: $container-lg;
+  }
+
+  &-fluid {
+     @include container-fixed;
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.row {
+  @include clearfix;
+  display: block;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+@mixin column() {
+  float: left;
+  padding: 0 15px;
+  min-height: 1px;
+}
+
+.col{
+
+  &-10 {
+    @include column;
+    width: 10%;
+  }
+
+  &-15 {
+    @include column;
+    width: 15%;
+  }
+
+  &-20 {
+    @include column;
+    width: 20%;
+  }
+  &-25 {
+    @include column;
+    width: 25%;
+  }
+  &-33 {
+    @include column;
+    width: 33.33333333%;
+  }
+  &-40 {
+    @include column;
+    width: 40%;
+  }
+  &-50 {
+    @include column;
+    width: 50%;
+  }
+  &-66 {
+    @include column;
+    width: 66%;
+  }
+  &-75 {
+    @include column;
+    width: 75%;
+  }
+  &-80 {
+    @include column;
+    width: 80%;
+  }
+}

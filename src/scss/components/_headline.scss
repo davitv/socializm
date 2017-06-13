@@ -1,0 +1,16 @@
+
+
+.headline {
+    padding: 10px 0;
+    h4 {
+        margin: 0;
+        .fa-circle {
+            color: #676ec3;
+        }
+    }
+
+    &--description {
+        color: #4a4343;
+        padding-left: 21px;
+    }
+}

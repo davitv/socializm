@@ -1,0 +1,39 @@
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-weight: 400;
+    line-height: 1.5384616;
+    color: inherit;
+}
+.h4, h4 {
+    font-size: 19px;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    letter-spacing: -.015em;
+}
+
+.text-semibold {
+    font-weight: 500;
+}
+
+.headline {
+    margin-top: 0;
+}
+strong {
+    font-weight: 500;
+}
+
+.list-unstyled {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list-bordered {
+    > li {
+        border-bottom: solid 1px #ddd;
+        margin: 5px 0;
+        padding: 5px 0;
+    }
+
+}

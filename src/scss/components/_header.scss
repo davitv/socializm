@@ -1,0 +1,17 @@
+
+
+.header {
+    @include clearfix;
+    display: block;
+    min-height: 40px;
+    background-color: #676ec3;
+    box-shadow: 0px 2px 2px #ccc;
+    position: relative;
+    &--logo {
+        display: block;
+        float: left;
+        font-size: 16px;
+        padding: 9px;
+        color: #fff;
+    }
+}
